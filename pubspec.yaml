@@ -44,8 +44,9 @@ flutter:
     - lib/assets/icons/bone.png
     - lib/assets/icons/fb.png
     - lib/assets/doglife.png
-    - lib/assets/logo.png    
-    - lib/assets/logo_second.png    
+    - lib/assets/logo.png
+    - lib/assets/logo_second.png
+    - lib/assets/lock.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
