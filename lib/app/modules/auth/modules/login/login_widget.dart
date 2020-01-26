@@ -1,5 +1,5 @@
 import 'package:doglife/app/modules/auth/modules/login/components/cadastro_button.dart';
-import 'package:doglife/app/modules/auth/modules/login/components/email_input.dart';
+import 'package:doglife/app/modules/auth/modules/components/email_input.dart';
 import 'package:doglife/app/modules/auth/modules/login/components/facebook_button.dart';
 import 'package:doglife/app/modules/auth/modules/login/components/login_button.dart';
 import 'package:doglife/app/modules/auth/modules/login/components/recuperar_senha_button.dart';
