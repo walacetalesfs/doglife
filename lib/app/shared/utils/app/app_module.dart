@@ -14,7 +14,7 @@ class AppModule extends MainModule {
 
   @override
   List<Router> get routers => [
-        Router('/', child: (_, args) => Container(child: Text('/'))),
+        Router('/', child: (_, args) => Container(child: RaisedButton(child: Text("BATATA"), onPressed: () => Navigator.pushNamed(_, '/auth/login'),))),
         Router('/auth', module: AuthModule())
       ];
 }
