@@ -1,4 +1,4 @@
-import 'package:doglife/app/modules/auth/modules/nova_senha/nova_senha_widget.dart';
+import 'package:doglife/app/modules/auth/pages/nova_senha/nova_senha_widget.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class NovaSenhaModule extends ChildModule {

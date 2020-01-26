@@ -1,5 +1,5 @@
-import 'package:doglife/app/modules/auth/modules/login/login_module.dart';
-import 'package:doglife/app/modules/auth/modules/nova_senha/nova_senha_module.dart';
+import 'package:doglife/app/modules/auth/pages/login/login_module.dart';
+import 'package:doglife/app/modules/auth/pages/nova_senha/nova_senha_module.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 

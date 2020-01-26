@@ -1,6 +1,6 @@
-import 'package:doglife/app/modules/auth/modules/components/email_input.dart';
-import 'package:doglife/app/modules/auth/modules/components/gradient_button.dart';
-import 'package:doglife/app/modules/auth/modules/nova_senha/components/appbar_voltar.dart';
+import 'package:doglife/app/modules/auth/components/email_input.dart';
+import 'package:doglife/app/modules/auth/components/gradient_button.dart';
+import 'package:doglife/app/modules/auth/pages/nova_senha/components/appbar_voltar.dart';
 import 'package:flutter/material.dart';
 
 class NovaSenhaWidget extends StatelessWidget {

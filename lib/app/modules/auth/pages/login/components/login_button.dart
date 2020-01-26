@@ -1,4 +1,4 @@
-import 'package:doglife/app/modules/auth/modules/components/gradient_button.dart';
+import 'package:doglife/app/modules/auth/components/gradient_button.dart';
 import 'package:flutter/material.dart';
 
 class LoginButton extends StatelessWidget {
