@@ -9,6 +9,8 @@ class RecuperarSenhaButton extends StatelessWidget {
         alignment: Alignment.centerRight,
         child: FlatButton(
             child: Text('Esqueceu a Senha?', style: TextStyle(color: GRAY)),
-            onPressed: () {}));
+            onPressed: () {
+              Navigator.pushNamed(context, '/auth/nova_senha');
+            }));
   }
 }
