@@ -1,7 +1,7 @@
 import 'package:doglife/app/shared/utils/styles/styles.dart';
 import 'package:flutter/material.dart';
 
-class CadastroButton extends StatelessWidget {
+class LoginButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -10,14 +10,14 @@ class CadastroButton extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Text('Voce não tem uma conta? ', style: TextStyle(color: GRAY)),
-                Text('Registre-se',
+                Text('Voce já tem uma conta? ', style: TextStyle(color: GRAY)),
+                Text('Logue',
                     textAlign: TextAlign.center,
                     style: TextStyle(color: RED, fontWeight: FontWeight.bold))
               ],
             ),
             onPressed: () {
-              Navigator.pushNamed(context, '/auth/cadastro');
+              Navigator.pop(context);
             }));
   }
 }
