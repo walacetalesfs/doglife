@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:doglife/app/modules/auth/auth_module.dart';
+import 'package:doglife/app/modules/home/splash_screen/splash_screen.dart';
 import 'package:doglife/app/shared/utils/app/app_widget.dart';
 import 'package:doglife/app/shared/utils/constants.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +15,7 @@ class AppModule extends MainModule {
 
   @override
   List<Router> get routers => [
-        Router('/', child: (_, args) => Container(child: RaisedButton(child: Text("BATATA"), onPressed: () => Navigator.pushNamed(_, '/auth/login'),))),
+        Router('/', child: (_, args) => SplashScreen()),
         Router('/auth', module: AuthModule())
       ];
 }
