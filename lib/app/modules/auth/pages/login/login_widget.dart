@@ -1,9 +1,9 @@
 import 'package:doglife/app/modules/auth/components/email_input.dart';
+import 'package:doglife/app/modules/auth/components/senha_input.dart';
 import 'package:doglife/app/modules/auth/pages/login/components/cadastro_button.dart';
 import 'package:doglife/app/modules/auth/pages/login/components/facebook_button.dart';
-import 'package:doglife/app/modules/auth/pages/login/components/login_button.dart';
+import 'package:doglife/app/modules/auth/pages/login/components/logar_button.dart';
 import 'package:doglife/app/modules/auth/pages/login/components/recuperar_senha_button.dart';
-import 'package:doglife/app/modules/auth/pages/login/components/senha_input.dart';
 import 'package:flutter/material.dart';
 
 class LoginWidget extends StatelessWidget {
@@ -25,7 +25,7 @@ class LoginWidget extends StatelessWidget {
             SenhaInput(),
             RecuperarSenhaButton(),
             SizedBox(height: 50),
-            LoginButton(),
+            LogarButton(),
             SizedBox(height: 10),
             FbButton(),
             SizedBox(height: 20),

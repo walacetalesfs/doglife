@@ -1,7 +1,7 @@
 import 'package:doglife/app/modules/auth/components/gradient_button.dart';
 import 'package:flutter/material.dart';
 
-class LoginButton extends StatelessWidget {
+class LogarButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return gradientButton(
