@@ -16,6 +16,8 @@ class LogarButton extends StatelessWidget {
                       child: Image.asset('lib/assets/icons/bone.png'),
                       height: 20))
             ]),
-        onPressed: () {});
+        onPressed: () {
+          Navigator.pushNamed(context, '/home/');
+        });
   }
 }
