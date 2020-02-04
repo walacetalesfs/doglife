@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:doglife/app/modules/auth/auth_controller.dart';
 import 'package:doglife/app/modules/auth/auth_module.dart';
 import 'package:doglife/app/modules/home/home_module.dart';
 import 'package:doglife/app/modules/home/pages/splash_screen/splash_screen.dart';
@@ -12,7 +13,10 @@ class AppModule extends MainModule {
   Widget get bootstrap => AppWidget();
 
   @override
-  List<Bind> get binds => [Bind((i) => Dio(BaseOptions(baseUrl: BASE_URL)))];
+  List<Bind> get binds => [
+        Bind((i) => Dio(BaseOptions(baseUrl: BASE_URL))),
+        Bind((i) => AuthController())
+      ];
 
   @override
   List<Router> get routers => [
