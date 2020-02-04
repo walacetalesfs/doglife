@@ -1,31 +1,15 @@
-import 'package:mobx/mobx.dart';
-
-abstract class User with Store {
-  @observable
+class User {
   String name;
-
-  @observable
   String email;
-
-  @observable
   String password;
 
-  String toString() {
-    return "{name: '$name', email: '$email', password: '$password'}";
-  }
+  User(this.name, this.email, this.password);
 
-  User() {
-    name = '';
-    email = '';
-    password = '';
-  }
+  User.fromJson(Map<String, dynamic> json)
+      : name = json['name'],
+        email = json['email'],
+        password = json['password'];
 
-  @action
-  changeEmail(String email) => email = email;
-
-  @action
-  changeName(String name) => name = name;
-
-  @action
-  changePassword(String password) => password = password;
+  Map<String, dynamic> toJson() =>
+      {'name': name, 'email': email, 'password': password};
 }
