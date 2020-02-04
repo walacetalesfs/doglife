@@ -53,6 +53,17 @@ flutter:
     - lib/assets/doglife_branco.png
     - lib/assets/splash_screen.png
 
+  #icons da bottombar
+    - lib/assets/bottombaricons/add.png
+    - lib/assets/bottombaricons/config_on.png
+    - lib/assets/bottombaricons/config.png
+    - lib/assets/bottombaricons/dog_on.png
+    - lib/assets/bottombaricons/dog.png
+    - lib/assets/bottombaricons/news_on.png
+    - lib/assets/bottombaricons/news.png
+    - lib/assets/bottombaricons/notifications_on.png
+    - lib/assets/bottombaricons/notifications.png
+ 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
