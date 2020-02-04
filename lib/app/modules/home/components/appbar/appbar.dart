@@ -1,6 +1,6 @@
-import 'package:doglife/app/modules/home/components/appbar//appbar_default.dart';
-import 'package:doglife/app/modules/home/components/appbar//appbar_home.dart';
-import 'package:doglife/app/modules/home/components/appbar//appbar_new_post.dart';
+import 'package:doglife/app/modules/home/components/appbar/appbar_default.dart';
+import 'package:doglife/app/modules/home/components/appbar/appbar_home.dart';
+import 'package:doglife/app/modules/home/components/appbar/appbar_new_post.dart';
 import 'package:flutter/material.dart';
 
 AppBar getAppBar(int i) {
